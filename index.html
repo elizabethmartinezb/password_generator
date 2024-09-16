@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
-    <title>Generador de contraseñas</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
@@ -19,15 +19,19 @@
         <div class="container__contenido">
             <div class="container__informacion">
                 <div class="container__texto">
-                    <h1>Generador<span class="container__texto-azul"> de Contraseñas</span></h1>
+                    <h1>Password<span class="container__texto-azul"> Generator</span></h1>
                     <div class="container__campo">
-                        <label class="texto__parrafo">Cantidad
+                        <label class="texto__parrafo">Quantity of characters
                             <input class="container__input" type="number" id="quantity">
                         </label>
-                        <button class="boton" id="generate" onclick="generatePassword()">Generar</button>
+                        <button class="boton" id="generate" onclick="generatePassword()">Generate</button>
+                        <button class="boton" id="clean" onclick="cleanFields()">Clean fields</button>
                     </div>
                     <div class="container__campo">
-                        <input class="container__contrasena" type="text" id="password" placeholder="contraseña">
+                        <input class="container__contrasena" type="text" id="password" placeholder="Password generated">
+
+                        <label class="texto__parrafo" id="validatedPassword">
+                        </label>
                     </div>
                 </div>
             </div>
