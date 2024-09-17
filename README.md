@@ -4,6 +4,8 @@
 Este es un generador de contraseñas desarrollado con **JavaScript** que permite crear contraseñas seguras basadas en los requisitos del usuario. El proyecto cuenta con un diseño responsivo utilizando **Bootstrap**, y maneja varias validaciones para asegurar que las contraseñas generadas sean robustas. El usuario puede personalizar la cantidad de caracteres y recibir alertas si la contraseña no cumple con los criterios de seguridad.
 Este proyecto fue desarrollado durante la Semana de la Programación, en la 3era edición de la **InmersionDevAlura**
 
+https://elizabethmartinezb.github.io/password_generator/
+
 ## Características
 - **Generación de Contraseñas Seguras**: El usuario puede especificar la longitud de la contraseña, y el sistema genera una contraseña basada en estos criterios.
 - **Validaciones**:
